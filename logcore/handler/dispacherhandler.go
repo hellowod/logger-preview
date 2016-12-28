@@ -4,12 +4,13 @@ import (
 	"bytes"
 	"fmt"
 	"html/template"
-	"logcore/cache"
-	"logcore/log"
-	"logcore/static"
-	"logcore/utils"
 	"net/http"
 	"strings"
+
+	"github.com/abao-hello/log-preview/logcore/cache"
+	"github.com/abao-hello/log-preview/logcore/log"
+	"github.com/abao-hello/log-preview/logcore/static"
+	"github.com/abao-hello/log-preview/logcore/utils"
 )
 
 func RunServer() {

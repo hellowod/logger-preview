@@ -2,9 +2,10 @@ package utils
 
 import (
 	"io/ioutil"
-	"logcore/log"
 	"os"
 	"strings"
+
+	"github.com/abao-hello/log-preview/logcore/log"
 )
 
 func GetPachName(url string) string {

@@ -12,7 +12,7 @@ logpreview是一个远程收集日志的工具，旨在方便查看项目
 
 # 安装
 1.安装go编译器版本 (开发使用go1.5)。
-2.使用go get github.com/abao-hello/logpreview会将项
-目下载到默认第一个GOPATH目录环境目录下面。
+2.使用go get github.com/abao-hello/log-preview会将项
+目下载到默认第一个GOPATH目录环境目录下面
 3.使用进入到ulog目录下面，使用go install命令会在
   bin目录下面生成对应的可执行文件。

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"logcore/handler"
+	"github.com/abao-hello/log-preview/logcore/handler"
 )
 
 func main() {
