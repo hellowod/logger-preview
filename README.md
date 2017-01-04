@@ -17,3 +17,5 @@ log-preview是一个远程收集日志的工具，旨在方便查看项目
 
 3.使用进入到ulog目录下面，使用go install命令会在
   bin目录下面生成对应的可执行文件。
+  
+4.testing
