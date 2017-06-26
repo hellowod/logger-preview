@@ -5,7 +5,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/abao-hello/log-preview/logcore/log"
+	"github.com/hellowod/log-preview/logcore/log"
 )
 
 func GetPachName(url string) string {
