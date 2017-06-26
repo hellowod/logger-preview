@@ -14,11 +14,13 @@ log-preview是一个远程收集日志的工具，旨在方便查看项目
 4. 后续扩展功能再补充。
 
 # 安装
-1.安装go编译器版本 (开发使用go1.5)。
+1. 安装go编译器版本 (开发使用go1.5)。
 
-2.使用go get github.com/abao-hello/log-preview会将项
+2. 配置GOPATH目录
+
+3. 使用go get github.com/hellowod/log-preview会将项
 目下载到默认第一个GOPATH目录环境目录下面,不要使用git clone克隆项目
 这样会导致引用的包找不到。
 
-3.使用进入到ulog目录下面，使用go install命令会在
+4. 使用进入到ulog目录下面，使用go install命令会在
   bin目录下面生成对应的可执行文件。
