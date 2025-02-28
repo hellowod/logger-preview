@@ -22,5 +22,8 @@ log-preview是一个远程收集日志的工具，旨在方便查看项目
 目下载到默认第一个GOPATH目录环境目录下面,不要使用git clone克隆项目
 这样会导致引用的包找不到。
 
-4. 使用进入到ulog目录下面，使用go install命令会在
+4. 将templete文件放到与exe文件统计即可
+
+5. 使用进入到ulog目录下面，使用go install命令会在
   bin目录下面生成对应的可执行文件。
+  
