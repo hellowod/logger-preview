@@ -2,7 +2,7 @@ package static
 
 const (
 	NetPathRoot = "/"
-	NetURL      = ":8888"
+	NetURL      = "0.0.0.0:8888"
 )
 
 const (

@@ -51,6 +51,12 @@ func processReqLog(resp http.ResponseWriter) {
 }
 
 func processPutLog(req *http.Request) {
+	// 解析表单数据
+    err := req.ParseForm()
+    if err != nil {
+        log.Error("Failed to parse form data:", err)
+        return
+    }
 	if len(cache.LogCache.Content) > static.LogMax {
 		cache.LogCache.Content = cache.LogCache.Content[static.LogSep:]
 	}
